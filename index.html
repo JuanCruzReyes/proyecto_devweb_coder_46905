@@ -3,33 +3,60 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CrochetCarito | Inicio</title>
+        <title>Elfo Libre | Inicio</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <header>
-            <a href="index.html">
-                <img class="logo" src="./assets/d8d68e2a-c4f4-4676-9b18-f8c57a84151d.jpeg" width="50px" alt="logo">
-            </a>
-            <nav>
-                <ul>
-                    <li class="ListaItem"><a href="#">Inicio</a> </li>
-                    <li class="ListaItem"><a href="./pages/contacto.html">Contacto</a></li>
-                    <li class="ListaItem"><a href="./pages/galeria.html">Galeria</a></li>
-                    <li class="ListaItem"><a href="./pages/sobremi.html">Sobre Mi</a></li>
-                    <li class="ListaItem"><a href="./pages/pedidos.html">Pedidos</a></li>
-                </ul>
-            </nav>
+        <header class="">
+            <nav class="navbar navbar-expand-lg navbar-light colorFondoRosa">
+                <div class="container">
+                  <a class="navbar-brand" href="#"> 
+                  <img src="./assets/d8d68e2a-c4f4-4676-9b18-f8c57a84151d.jpeg" alt="logo">Elfo Libre
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-between">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/redes.html">Redes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/pedidos.html">Pedidos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
-        <main>
+        <main class="cream container-fluid">
            <h1 class="Titulos"> Tejidos con Amor: Creaciones de Crochet Únicas</h1>
-        </main>
         <section class="Subtitulos">
             <h2 class="Textoh2">Variedad de productos tejidos a mano</h2>
             <h3 class="Textoh3">Venta de productos hechos con crochet a medida </h3>
         </section>
-        <footer>
+            <section class="row">
+                <div class="col bg-">
+                 soy un container
+                </div>
+                <div class="col bg-">
+                 soy un container fluid
+                 </div>
+        </section>
+        </main>
+        <footer class="container-fluid">
                 <p class="InfoLegal">Todos los derechos reservados © 2023.</p>
         </footer>
+      <script src="./js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
