@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="../css/bootstrap.min.css">
     </head>
     <body>
-        <header>
+        <header class="">
             <nav class="navbar navbar-expand-lg navbar-light colorFondoRosa">
                 <div class="container">
                   <a class="navbar-brand" href="../index.html"> 
@@ -23,44 +23,110 @@
                         <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+                        <a class="nav-link" href="galeria.html">Galeria</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./pages/redes.html">Redes</a>
+                        <a class="nav-link" href="redes.html">Redes</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./pages/pedidos.html">Pedidos</a>
+                        <a class="nav-link" href="pedidos.html">Pedidos</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </nav>
         </header>
-        <main>
-            <h2 class="Subtitulos">Queres dejarnos un comentario o necesitas ayuda sobre alguna reserva? podes hacerlo aca abajo!</h2>
-        </main>
-            <section>
-                <label class="TypeForm" for="text">Nombre</label>
-                <input type="text">
-            </section>
-            <section>
-                <label class="TypeForm" for="text">Apellido</label>
-                <input type="text">
-            </section>
-            <section>
-                <label class="TypeForm" for="number">telefono</label>
-                <input type="number">
-            </section>
-            <section>
-                <label class="TypeForm" for=""><legend>crochetesmipasion@gmail.com</legend></label>
-                <input type="text">
-            </section>
-        <footer>
-            <p>Todos los derechos reservados © 2023.</p>
+      <main class="container-fluid row">
+        <h1 class="Textoh2">Formulario de contacto</h1>
+        <h3 class="Textoh3">Cualquier inquietud que tengas, no olvides dejarme un mensaje.</h3>
+        <div class="container">
+          <form class="row g-3 mt-4 mb-5" action="404.html" method="post">
+            
+            <div class="col-6 ">
+              <label id="labelNombre" for="nombre" class="form-label" >Nombre</label>
+              <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+            </div>
+            <div class="col-6">
+              <label id="labelApellido" for="apellido" class="form-label" >Apellido</label>
+              <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Ingrese su Apellido">
+            </div>
+            <div class="col-12"> 
+              <label for="email" class="form-label" >Ingrese su Email <div class="mb-3"></div>
+              <input type="email" class="form-control" name="" id="email" aria-describedby="emailHelpId" placeholder="abc@mail.com">
+              <small id="emailHelpId" class="form-text text-muted">* servira para poder contactarte por ahi</small>
+            </div>
+            <div class="col-12">
+              <label for="labelAddress" class="form-label">Direccion</label>
+              <input type="text" class="form-control" name="direccion" id="direccion" placeholder="Ingrese su direccion">
+            </div>
+            <div>
+              <label for="mensaje">Ingrese su Mensaje</label>
+          </div>
+          <div>
+              <textarea name="mensaje" id="mensaje" cols="60" rows="5" placeholder="Ingrese su mensaje"></textarea>
+          </div>
+            <div class="col-6">
+              <button type="reset" class="btn btn-danger">Reestablecer</button>
+            </div>
+            <div class="col-6">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        </div>
+
+      </main> 
+      
+        <footer class="bg-info bg-gradient text-dark pt-5 pb-4  border border-success border border-4">
+          <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start">
+            </div class=" col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+      
+            <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Todos los derechos reservados © 2023.</h5>
+            <hr class="mb-4">
+            <p> Esta pagina esta creada con el proposito de entender el diseño, modelado y creacion de las paginas web, espero te guste y no olvides que estoy aprendiendo :)) </p>
+      
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+      
+              <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Dejanos ayudarte</h5>
+              <hr class="mb-4">
+              <p>
+                <a href="./pages/contacto.html " class="text-dark">Contacto</a>
+              </p>
+      
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+      
+              <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Dejanos ayudarte</h5>
+              <hr class="mb-4">
+              <p>
+                <a href="./pages/contacto.html " class="text-dark">Ejemplo</a>
+              </p>
+      
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+      
+              <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Dejanos ayudarte</h5>
+              <hr class="mb-4">
+              <p>
+                <a href="./pages/contacto.html " class="text-dark">Ejemplo</a>
+              </p>
+      
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+      
+              <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Dejanos ayudarte</h5>
+              <hr class="mb-4">
+              <p>
+                <a href="./pages/contacto.html " class="text-dark">Ejemplo</a>
+              </p>
+      
+            </div>
+          </div>
         </footer>
+        <script src="../js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
  <!-- la etiqueta div de divisora sirve para dividir el contenido del html, asi mismo la etiqueta section. pero esta etiqueta es mas importante y se usa en lugares importantes y especificos-->
