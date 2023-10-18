@@ -1,0 +1,46 @@
+.Titulos {
+    font-size: 75px;
+    color: rgb(179, 128, 0);
+    text-align: center;
+}
+img {
+    height: 50px;
+    width: 50px;
+}
+.Video {
+    align-items: center;
+    size-adjust: 3rem;
+    border-radius: 2cm;
+}
+.Textoh2{
+   display: flex;
+   justify-content: center;
+   font-size: 45px;
+   color: #ff4759;
+}
+.Textoh3{
+   display: flex;
+   justify-content: center;
+   font-size: 30px;
+   color: #ff7987;
+}
+.rosa{
+   background-color: #ff7987;
+}
+.colorFondoRosa{
+  background-color: #ff7987;
+}
+main{
+  background-color: beige;
+}
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.grid-container{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
