@@ -1,0 +1,40 @@
+.Titulos .Titulos .Textoh2 .Textoh3 {
+  display: flex;
+  font-size: 30px;
+  color: #ff7987; 
+  font-size: 75px;
+  color: rgb(179, 128, 0);
+  text-align: center;
+  justify-content: center;
+ } 
+img {
+  height: 50px;
+  width: 50px;
+}
+img .Video {
+  align-items: center;
+  size-adjust: 3rem;
+  border-radius: 2cm;
+}
+
+main {
+  background-color: beige;
+}
+main .grid-container {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+body .rosa {
+  background-color: #ff7987;
+}
+body .colorFondoRosa {
+  background-color: #ff7987;
+}/*# sourceMappingURL=styles.css.map */

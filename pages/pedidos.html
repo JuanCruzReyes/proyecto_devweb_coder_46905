@@ -3,7 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Elfo Libre | Pedidos</title>
+        <meta name="description" content="¿Buscas algo específico? En Elfo Libre, aceptamos pedidos personalizados para satisfacer tus necesidades de moda de crochet. ¡Diseña tu prenda única hoy!">
+        <meta name="keywords" content="pedido, delivery, envio gratis, medidas, precio, carrito, compras, ofertas, prendas personalizadas, crochet comprar">
+        <title>Pedidos | Elfo Libre</title>
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/bootstrap.min.css">
     </head>
@@ -39,8 +41,49 @@
                 </div>
               </nav>
         </header>
-        <main>
-            <h1 class="titulos">Dejame tus datos, yo te hago algo lindo ;)</h1>
+        <main class="container-fluid row">
+            <h1 class="Titulos">Dejame tus datos, yo te hago algo lindo ;)</h1>
+            <h2 class="Textoh2">A tener en cuenta:</h2>
+
+            <p class="">La confeccion de la prenda u acceorio depende mucho de la disponibilidad de los materiales.
+
+              A continuacion podes encontrar los marcos para empezar a plasmar la idea de tu diseño
+            </p>
+            <section>
+              <form class="row g-3 mt-4 mb-5" action="404.html" method="post">
+            
+                <div class="col-6 ">
+                  <label id="labelNombre" for="nombre" class="form-label" >Nombre</label>
+                  <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+                </div>
+                <div class="col-6">
+                  <label id="labelApellido" for="apellido" class="form-label" >Apellido</label>
+                  <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Ingrese su Apellido">
+                </div>
+                <div class="col-12"> 
+                  <label for="email" class="form-label" >Ingrese su Email <div class="mb-3"></div>
+                  <input type="email" class="form-control" name="" id="email" aria-describedby="emailHelpId" placeholder="abc@mail.com">
+                  <small id="emailHelpId" class="form-text text-muted">* servira para poder contactarte por ahi</small>
+                </div>
+                <div class="col-12">
+                  <label for="labelAddress" class="form-label">Direccion</label>
+                  <input type="text" class="form-control" name="direccion" id="direccion" placeholder="Ingrese su direccion">
+                </div>
+                <div>
+                  <label for="mensaje">Ingrese su Mensaje</label>
+              </div>
+              <div>
+                  <textarea name="mensaje" id="mensaje" cols="60" rows="5" placeholder="Ingrese su mensaje"></textarea>
+              </div>
+                <div class="col-6">
+                  <button type="reset" class="btn btn-danger">Reestablecer</button>
+                </div>
+                <div class="col-6">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+              </form>
+            </div>
+            </section>
         </main>
         <footer class="bg-info bg-gradient text-dark pt-5 pb-4  border border-success border border-4">
           <div class="container text-center text-md-start">
