@@ -7,10 +7,13 @@ img {
     height: 50px;
     width: 50px;
 }
-.Video {
+.VideoIframe {
     align-items: center;
-    size-adjust: 3rem;
+    size-adjust: auto;
     border-radius: 2cm;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
 }
 .Textoh2{
    display: flex;
@@ -34,13 +37,19 @@ main{
   background-color: beige;
 }
 body {
-  display: grid;
+  
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
+ 
 }
 .grid-container{
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+}
+.Subtitulos{
+  text-align: center;
+}
+.wrap{
+  flex-wrap: wrap;
 }

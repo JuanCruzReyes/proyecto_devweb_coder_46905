@@ -14,8 +14,8 @@ $align-left: text-align left;
     justify-content: center;
     font-size: 30px;
     color: #ff7987;
-    p{
-      $text-align: center;
+    .Subtitulos{
+      text-align: center;
     }
 }
 }
@@ -27,6 +27,7 @@ img {
         align-items: center;
         size-adjust: 3rem;
         border-radius: 2cm;
+        margin-bottom: 10px;
 }
 }
 main{
@@ -42,4 +43,9 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  .videoIframe{
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+  }
 }
